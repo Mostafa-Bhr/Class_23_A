@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.screen {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.button,
+.operator,
+.clear,
+.equal-sign {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.clear,
+.equal-sign {
+    background-color: #1dec1d;
+    color: rgb(246, 236, 236);
+}
+
+.button,
+.operator {
+    background-color: #ddd;
+}
+
+.button:hover,
+.operator:hover,
+.clear:hover,
+.equal-sign:hover {
+    background-color: #ccc;
+}
